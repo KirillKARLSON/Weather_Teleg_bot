@@ -26,7 +26,7 @@ public class ChatConfig {
     private long chatId;
 
 
-    @NonNull;
+    @NonNull
     @Field(targetType = FieldType.STRING)
 
     private BotState botState;

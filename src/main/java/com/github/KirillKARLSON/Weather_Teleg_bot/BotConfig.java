@@ -33,9 +33,3 @@ public class BotConfig {
 
 }
 
-@Getter
-@Setter
-@NoArgsConstructor
-public class Command {
-
-}
