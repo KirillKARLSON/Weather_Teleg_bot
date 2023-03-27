@@ -38,6 +38,14 @@
 			<scope>test</scope>
 		</dependency>
 
+
+		<!--Для работы с RestTemplate-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
 		<!--Библиотека для удобной работы с Telegram API-->
 		<dependency>
 			<groupId>org.telegram</groupId>
