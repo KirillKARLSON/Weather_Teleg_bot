@@ -2,6 +2,7 @@ package com.github.KirillKARLSON.Weather_Teleg_bot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.aggregation.ConditionalOperators;
+import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.concurrent.Executor;
 
+@Component
 public class WeatherBotFacade {
     @Autowired
     private WeatherBot weatherBot;
