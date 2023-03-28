@@ -20,7 +20,7 @@ public class BotConfig {
     @Id
     private BigInteger id;
 
-    private String name = "WeatherFirst";
+    private String name = "WeatherFirstBot";
 
     private String accessToken = "5966991979:AAF7vJw3htvJcLPKeDXEE5yzPMyGW4kef1g";
 
